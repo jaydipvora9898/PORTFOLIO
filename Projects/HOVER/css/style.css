@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.bebas{
+    font-family: "Bebas Neue", sans-serif;
+}
+a,i,span{
+	display:inline-block;
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+.container{
+	max-width:100%;
+	margin:0 auto;
+	padding:0 15px;
+}
+.d-flex{
+	display:flex;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.justify-between{
+	justify-content:space-between;
+}
+.align-item-center{
+	align-items:center;
+}
+.relative{
+	position:relative;
+}
+.absolute{
+	position:absolute;
+}
+.text-center{
+	text-align:center;
+}
+.justify-center{
+	justify-content:center;
+}
+.flex-d-coloum{
+    flex-direction: column;
+}
+.mw-60{
+    max-width: 60%;
+}
+.col-1{
+	width:8.33%;
+}
+.col-2{
+	width:16.66%;
+}
+.col-3{
+	width:25%;
+}
+.col-4{
+	width:33.33%;
+}
+.col-5{
+	width:40.66%;
+}
+.col-6{
+	width:50%;
+}
+.col-7{
+	width:58.33%;
+}
+.col-8{
+	width:66.66%;
+}
+.col-9{
+	width:75%;
+}
+.col-10{
+	width:83.33%;
+}
+.col-11{
+	width:91.66%;
+}
+.col-12{
+	width:100%;
+}
+
+/* HOVER */
+
+.demos{
+    padding: 100px 0;
+}
+.hover-inner{
+    width: 300px;
+    height: 300px;
+    border: 2px solid grey;
+    overflow: hidden;
+    border-radius: 5px; 
+    position: relative;
+    transition: 0.3s;
+    margin:0 20px 20px 0 ;
+}
+.hover-img{     
+    height: auto;
+    transition: 2s ease-in-out;    
+}
+.hover-inner:hover .hover-img {
+    transform: translateY(-70%); 
+}
+.hover-inner:hover{
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2); 
+}
+.hover-qr img{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: 0.3s;
+    z-index: 9;
+}
+.hover-qr img:hover{
+    width: 100%;
+    height: auto;
+}
+.hover-inner span{
+    background-color: #E53935;
+    box-shadow: 0 15px 25px rgba(255, 0, 0, 0.2);
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 14px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
